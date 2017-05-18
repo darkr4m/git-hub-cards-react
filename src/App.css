@@ -1,24 +1,63 @@
-.App {
+* {
+  box-sizing: border-box;
+}
+
+.list-container {
+  max-width: 480px;
+  margin: 0 auto;
+  background: #181818;
+  border: 3px solid #91A437;
+}
+
+.top {
+  padding: 1rem;
+  background: #35343D;
+  border-bottom: 1.5px solid #91A437;
+  color: #91A437;
   text-align: center;
+  letter-spacing: .3rem;
+}
+.top .card-name {
+  margin-bottom: 1rem;
+}
+.top button {
+  background: #181818;
+  border: 3px solid #91A437;
+  color: #91A437;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.cardx {
+  margin: 1rem auto .5rem;
+  max-width: 90%;
+  padding: .8rem;
+  background: #35343D;
+  border: 3px solid #91A437;
+  color: #91A437;
+}
+.cardx:hover {
+  background: rgba(255, 255, 255, 0.1);
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.heading {
+  padding: 0;
+  letter-spacing: .15rem;
+}
+.heading p {
+  line-height: 1.4rem;
+  margin: 0;
+  padding: 0;
 }
 
-.App-intro {
-  font-size: large;
+.card-name {
+  margin: 0 0 .2rem 0;
+  padding: 0;
+  font-size: 1.2rem;
+  text-transform: uppercase;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.gravicon {
+  border: 3px solid #91A437;
+  border-radius: 50%;
 }
